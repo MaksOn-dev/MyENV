@@ -1,0 +1,12 @@
+{
+  "name":"Maks/envParser",
+  "version":"1.0.0",
+  "require":{
+    "php":">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maks\\EnvParser\\": "src"
+    }
+  }
+}
