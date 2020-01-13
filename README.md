@@ -64,7 +64,7 @@ MyENV::$optionsKeyValueDelimiter = "=";
 Изменить символ начала комментария:
 
 ```php
-MyENV::$optionsKeyValueDelimiter = "=";
+MyENV::$optionsComment = "#";
 ```
 
 Включить/отключить преобразование типов значений:
@@ -91,7 +91,7 @@ test.env
 Value2 = 2# This is value
 ```
 
-Если обнаружена незакрытая кавычка, комментарий становится значением
+Если обнаружена незакрытая кавычка - комментарий становится значением
 
 ```
 New = "value # This is value again
